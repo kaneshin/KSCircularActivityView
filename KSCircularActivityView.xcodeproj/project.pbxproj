@@ -25,6 +25,7 @@
 		7949A2851839210A00B619BD /* KSCircularActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCircularActivityView.m; sourceTree = "<group>"; };
 		795A87C9183A80510060F0F1 /* KSCircularActivityView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KSCircularActivityView-Info.plist"; sourceTree = "<group>"; };
 		795A87CD183B0F6F0060F0F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		795A8817183B536D0060F0F1 /* KSCircularActivityView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSCircularActivityView-Prefix.pch"; sourceTree = "<group>"; };
 		79EC17B6183A79D000F4B902 /* KSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
 		79EC17B7183A79D000F4B902 /* KSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
 		79EC17BA183A79D000F4B902 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 			children = (
 				79EC17B6183A79D000F4B902 /* KSAppDelegate.h */,
 				79EC17B7183A79D000F4B902 /* KSAppDelegate.m */,
+				795A8817183B536D0060F0F1 /* KSCircularActivityView-Prefix.pch */,
 				795A87C9183A80510060F0F1 /* KSCircularActivityView-Info.plist */,
 				795A87CD183B0F6F0060F0F1 /* Images.xcassets */,
 				79EC17BA183A79D000F4B902 /* main.m */,
@@ -245,7 +247,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "Example/KSCircularActivityView-Prefix.pch";
 				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/KSCircularActivityView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,7 +261,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "Example/KSCircularActivityView-Prefix.pch";
 				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/KSCircularActivityView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
